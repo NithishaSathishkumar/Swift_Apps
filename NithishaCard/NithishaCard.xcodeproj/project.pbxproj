@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531F8FCE2C605DFC0064DA59 /* NithishaCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F8FCD2C605DFC0064DA59 /* NithishaCardApp.swift */; };
+		531F8FD02C605DFC0064DA59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F8FCF2C605DFC0064DA59 /* ContentView.swift */; };
+		531F8FD22C605DFE0064DA59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531F8FD12C605DFE0064DA59 /* Assets.xcassets */; };
+		531F8FD52C605DFE0064DA59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531F8FD42C605DFE0064DA59 /* Preview Assets.xcassets */; };
+		531F8FDF2C606F9E0064DA59 /* LibreBaskerville-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 531F8FDC2C606F9E0064DA59 /* LibreBaskerville-Italic.ttf */; };
+		531F8FE02C606F9E0064DA59 /* LibreBaskerville-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 531F8FDD2C606F9E0064DA59 /* LibreBaskerville-Regular.ttf */; };
+		531F8FE12C606F9E0064DA59 /* LibreBaskerville-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 531F8FDE2C606F9E0064DA59 /* LibreBaskerville-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531F8FCA2C605DFC0064DA59 /* NithishaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NithishaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		531F8FCD2C605DFC0064DA59 /* NithishaCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NithishaCardApp.swift; sourceTree = "<group>"; };
+		531F8FCF2C605DFC0064DA59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		531F8FD12C605DFE0064DA59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		531F8FD42C605DFE0064DA59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		531F8FDC2C606F9E0064DA59 /* LibreBaskerville-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Italic.ttf"; sourceTree = "<group>"; };
+		531F8FDD2C606F9E0064DA59 /* LibreBaskerville-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Regular.ttf"; sourceTree = "<group>"; };
+		531F8FDE2C606F9E0064DA59 /* LibreBaskerville-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreBaskerville-Bold.ttf"; sourceTree = "<group>"; };
+		531F8FE22C60706D0064DA59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		531F8FC72C605DFC0064DA59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531F8FC12C605DFC0064DA59 = {
+			isa = PBXGroup;
+			children = (
+				531F8FCC2C605DFC0064DA59 /* NithishaCard */,
+				531F8FCB2C605DFC0064DA59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		531F8FCB2C605DFC0064DA59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531F8FCA2C605DFC0064DA59 /* NithishaCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		531F8FCC2C605DFC0064DA59 /* NithishaCard */ = {
+			isa = PBXGroup;
+			children = (
+				531F8FE22C60706D0064DA59 /* Info.plist */,
+				531F8FDB2C606F840064DA59 /* fonts */,
+				531F8FCD2C605DFC0064DA59 /* NithishaCardApp.swift */,
+				531F8FCF2C605DFC0064DA59 /* ContentView.swift */,
+				531F8FD12C605DFE0064DA59 /* Assets.xcassets */,
+				531F8FD32C605DFE0064DA59 /* Preview Content */,
+			);
+			path = NithishaCard;
+			sourceTree = "<group>";
+		};
+		531F8FD32C605DFE0064DA59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				531F8FD42C605DFE0064DA59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		531F8FDB2C606F840064DA59 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				531F8FDE2C606F9E0064DA59 /* LibreBaskerville-Bold.ttf */,
+				531F8FDC2C606F9E0064DA59 /* LibreBaskerville-Italic.ttf */,
+				531F8FDD2C606F9E0064DA59 /* LibreBaskerville-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		531F8FC92C605DFC0064DA59 /* NithishaCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531F8FD82C605DFE0064DA59 /* Build configuration list for PBXNativeTarget "NithishaCard" */;
+			buildPhases = (
+				531F8FC62C605DFC0064DA59 /* Sources */,
+				531F8FC72C605DFC0064DA59 /* Frameworks */,
+				531F8FC82C605DFC0064DA59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NithishaCard;
+			productName = NithishaCard;
+			productReference = 531F8FCA2C605DFC0064DA59 /* NithishaCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		531F8FC22C605DFC0064DA59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					531F8FC92C605DFC0064DA59 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 531F8FC52C605DFC0064DA59 /* Build configuration list for PBXProject "NithishaCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 531F8FC12C605DFC0064DA59;
+			productRefGroup = 531F8FCB2C605DFC0064DA59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				531F8FC92C605DFC0064DA59 /* NithishaCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		531F8FC82C605DFC0064DA59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531F8FDF2C606F9E0064DA59 /* LibreBaskerville-Italic.ttf in Resources */,
+				531F8FE02C606F9E0064DA59 /* LibreBaskerville-Regular.ttf in Resources */,
+				531F8FD52C605DFE0064DA59 /* Preview Assets.xcassets in Resources */,
+				531F8FD22C605DFE0064DA59 /* Assets.xcassets in Resources */,
+				531F8FE12C606F9E0064DA59 /* LibreBaskerville-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531F8FC62C605DFC0064DA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531F8FD02C605DFC0064DA59 /* ContentView.swift in Sources */,
+				531F8FCE2C605DFC0064DA59 /* NithishaCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		531F8FD62C605DFE0064DA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		531F8FD72C605DFE0064DA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531F8FD92C605DFE0064DA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NithishaCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XR7RBCB9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NithishaCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nithisha.NithishaCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		531F8FDA2C605DFE0064DA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NithishaCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XR7RBCB9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NithishaCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nithisha.NithishaCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		531F8FC52C605DFC0064DA59 /* Build configuration list for PBXProject "NithishaCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531F8FD62C605DFE0064DA59 /* Debug */,
+				531F8FD72C605DFE0064DA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531F8FD82C605DFE0064DA59 /* Build configuration list for PBXNativeTarget "NithishaCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531F8FD92C605DFE0064DA59 /* Debug */,
+				531F8FDA2C605DFE0064DA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 531F8FC22C605DFC0064DA59 /* Project object */;
+}
